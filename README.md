@@ -1,6 +1,6 @@
 # Database
 
-### Repositorio Base de datos ###
+### Lista de practicas de Base de datos ###
 
 * [Ejercicios SQL](https://github.com/carlosjose1267/Database/blob/master/SQL_Ejercicios.sql)
 * [Ejercicios Triggers](https://github.com/carlosjose1267/Database/blob/master/SQL_Ejercicios.sql)
