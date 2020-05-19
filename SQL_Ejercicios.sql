@@ -68,6 +68,15 @@ END Obtener_media;
  -----------------------------------------------------------------------------------------------------------------
 -- Ejercicio4
 ----------------------------------------------------------------------------------------------------------------- 
-
+ CREATE OR REPLACE
+ PROCEDURE antiguedad(id_empleado IN NUMBER) AS
+ dato NUMBER;
+  BEGIN
+     SELECT ABS(EXTRACT(YEAR FROM To_Date(sysdate)) - EXTRACT(YEAR FROM hire_date))
+     into dato
+     from employees WHERE employee_id=id_empleado;
+     dbms_output.put_line('Antiguedad del empleado en años: '||dato);
+ END;
+/
                                                                
                                                                
