@@ -13,9 +13,17 @@ BEGIN
 END Obtener_num_empleados;
 /
 
-    -- ejecucion de la funcion 
-select Obtener_num_empleados(department_id)  as cantidad_empleados, first_name as nombre_empleado
-from employees  where department_id = '10';
+ -- Ejecucion de la funcion (FORMA 1)
+ declare
+   ids number:=10; 
+   BEGIN
+        DBMS_OUTPUT.PUT_LINE('El salario es ' || Obtener_num_empleados(ids));
+   END;
+
+
+  -- Ejecucion de la funcion (FORMA 2)
+ select Obtener_num_empleados(department_id)  as cantidad_empleados, first_name as nombre_empleado
+ from employees  where department_id = '10';
 
 -----------------------------------------------------------------------------------------------------------------
 -- Ejercicio2
@@ -44,13 +52,22 @@ BEGIN
     return v_result;
 END Obtener_media;
 /
-
-    -- ejecucion de la funcion 
-    ------------------
+                                                                       
+    -- Ejecucion de la funcion (FORMA 1)
    declare
    ids number:=100; 
    BEGIN
         DBMS_OUTPUT.PUT_LINE('El salario es ' || Obtener_media(ids));
    END;
-   -----------------
+   
+   -- Ejecucion de la funcion (FORMA 2)                                                            
+                                                               
+  select Obtener_media(department_id) as cantidad_media
+  from employees  where department_id = '100' group by department_id;
+   
+ -----------------------------------------------------------------------------------------------------------------
+-- Ejercicio4
+----------------------------------------------------------------------------------------------------------------- 
 
+                                                               
+                                                               
