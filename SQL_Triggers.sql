@@ -41,3 +41,15 @@ begin
     RAISE_APPLICATION_ERROR(-20231, 'No se puede subir mas de un 10% el salario');
     end if;
 end;
+
+
+-- Calculos derivados 
+create or replace NONEDITIONABLE TRIGGER Diferencia_de_salario
+    AFTER UPDATE ON employees for each row
+DECLARE
+   salario_resultado_diferencial number;
+BEGIN
+    salario_resultado_diferencial := :NEW.salary  - :OLD.salary; 
+   INSERT INTO diferencia_del_salario (emp_id, Antiguo_Salario, Nuevo_Salario, Diferencia_Salarial)
+   VALUES(:NEW.employee_id, :OLD.salary,:NEW.salary, salario_resultado_diferencial);
+END;
