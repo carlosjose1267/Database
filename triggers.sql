@@ -6,7 +6,7 @@ begin
 	values(ORA_LOGIN_USER, systimestamp, ORA_SYSEVENT);
 end;
 
--- integridad referencial 
+-- integridad referencial 1
 CREATE OR REPLACE TRIGGER REG_EMP 
 AFTER UPDATE ON EMPLOYEES for each row
 BEGIN
@@ -14,13 +14,14 @@ BEGIN
 	values(:NEW.FIRST_NAME, :NEW.LAST_NAME, :NEW.HIRE_DATE);
 END;
 
--- integridad referencial
+-- integridad referencial 2
 create or replace trigger msmborrado
 after delete on employees
 begin
    RAISE_APPLICATION_ERROR(-20250, 'Se han borrado uno o mas registros');
 end;
--- integridad de los datos
+
+-- integridad de los datos 1
 create or replace trigger controlsalario
 before insert or update on employees
 for each row
@@ -31,7 +32,7 @@ end if;
 end;
 
 
--- integridad datos
+-- integridad de los datos 2
 create or replace trigger notantosalario
 before update of salary on employees
 for each row
