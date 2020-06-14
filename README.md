@@ -8,5 +8,5 @@
 * [Practica de usuarios en Oracle](https://github.com/carlosjose1267/Database/blob/master/Practica_Usuarios_Oracle.pdf)
 * [Manual de supervivencia del Administrador de Oracle](https://github.com/carlosjose1267/Database/blob/master/Manual_de_supervivencia_Oracle_Simple.pdf)
 * [Cursores](https://github.com/carlosjose1267/Database/blob/master/Cursores.sql)
-* [Copias de seguridad Oracle](https://github.com/carlosjose1267/Database/blob/master/Copias_de_seguridad_oracle.sql)
+* [Copia de seguridad Oracle](https://github.com/carlosjose1267/Database/blob/master/Copia_de_seguridad_oracle.pdf)
 * [Proyecto final](https://github.com/carlosjose1267/Database/blob/master/proyecto_final.sql)
