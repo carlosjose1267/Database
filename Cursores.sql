@@ -28,3 +28,4 @@ BEGIN
    END LOOP;
    CLOSE MenorSalario;
 END; 
+ 
