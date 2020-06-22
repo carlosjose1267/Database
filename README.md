@@ -11,4 +11,4 @@
 * [Copia de seguridad Oracle](https://github.com/carlosjose1267/Database/blob/master/Copia_de_seguridad_oracle.pdf)
 * [Proyecto final (Database)](https://github.com/carlosjose1267/Database/blob/master/traficocarlosjose.sql)
 * [Proyecto final (Modelo E/R)](https://github.com/carlosjose1267/Database/blob/master/traficocarlosjose.mwb)
-* [Proyecto final (IdealDoc)](https://github.com/carlosjose1267/Database/blob/master/Propuesta_Control_de_trafico.pdf)
+* [Proyecto final (IdealDoc)](https://github.com/carlosjose1267/Database/blob/master/Propuesta_Control_de_tráfico.pdf)
