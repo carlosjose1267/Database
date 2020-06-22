@@ -9,4 +9,6 @@
 * [Manual de supervivencia del Administrador de Oracle](https://github.com/carlosjose1267/Database/blob/master/Manual_de_supervivencia_Oracle_Simple.pdf)
 * [Cursores](https://github.com/carlosjose1267/Database/blob/master/Cursores.sql)
 * [Copia de seguridad Oracle](https://github.com/carlosjose1267/Database/blob/master/Copia_de_seguridad_oracle.pdf)
-* [Proyecto final](https://github.com/carlosjose1267/Database/blob/master/proyecto_final.sql)
+* [Proyecto final (database)](https://github.com/carlosjose1267/Database/blob/master/traficocarlos.sql)
+* [Proyecto final (Modelo E/R)](https://github.com/carlosjose1267/Database/blob/master/traficocarlosjose.mwb)
+* [Proyecto final (IdealDOC)](https://github.com/carlosjose1267/Database/blob/master/Propuesta_Control_de_trafico_base_de_datos.pdf)
